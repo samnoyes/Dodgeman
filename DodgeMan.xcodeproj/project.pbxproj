@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E52445C916FAA4A7002D7C03 /* blackBar.png in Resources */ = {isa = PBXBuildFile; fileRef = E52445C816FAA4A7002D7C03 /* blackBar.png */; };
+		E5297159168D4C35005758BA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5297158168D4C35005758BA /* AVFoundation.framework */; };
+		E544587316A3865400644E85 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E544587216A3865400644E85 /* iAd.framework */; };
+		E549DC1916F1818800050E4C /* IcicleNewNew.png in Resources */ = {isa = PBXBuildFile; fileRef = E549DC1816F1818800050E4C /* IcicleNewNew.png */; };
+		E55A5DB116F2CADA0038E970 /* StickManLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = E55A5DB016F2CADA0038E970 /* StickManLeft.png */; };
+		E55A5DB316F2CAE20038E970 /* StickManRight.png in Resources */ = {isa = PBXBuildFile; fileRef = E55A5DB216F2CAE20038E970 /* StickManRight.png */; };
+		E5C2779A17247EB700342B54 /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C2779917247EB700342B54 /* Arrow.png */; };
+		E5C439AB168E17E70052A05D /* whoosh2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5C439AA168E17E70052A05D /* whoosh2.mp3 */; };
+		E5D4E94316F573B3000FCDFD /* Lined paper copy.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D4E94216F573B3000FCDFD /* Lined paper copy.png */; };
+		E5D4E94516F5764C000FCDFD /* StickManLeftNew.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D4E94416F5764C000FCDFD /* StickManLeftNew.png */; };
+		E5D4E94716F57657000FCDFD /* StickManRightNew.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D4E94616F57657000FCDFD /* StickManRightNew.png */; };
+		E5D900F617222556002727D1 /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D900F417222556002727D1 /* right_arrow.png */; };
+		E5D900F717222556002727D1 /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D900F517222556002727D1 /* left_arrow.png */; };
+		E5EA5A5116F62E3C00833869 /* AppIconNoCopywrightRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EA5A5016F62E3C00833869 /* AppIconNoCopywrightRetina.png */; };
+		E5EA5A5316F62E4F00833869 /* AppIconNoCopywrightNon-Retina.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EA5A5216F62E4F00833869 /* AppIconNoCopywrightNon-Retina.png */; };
+		E5EA5A5516F62E5D00833869 /* AppIconForItunesConnect.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EA5A5416F62E5D00833869 /* AppIconForItunesConnect.png */; };
+		FC0939CF1640AD1900ABA470 /* applause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0939CE1640AD1900ABA470 /* applause.mp3 */; };
+		FC0AC12115DAAB07009A35D0 /* check copy.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0AC12015DAAB07009A35D0 /* check copy.png */; };
+		FC145F6715C215D90001DA71 /* snowflake.png in Resources */ = {isa = PBXBuildFile; fileRef = FC145F6615C215D90001DA71 /* snowflake.png */; };
+		FC5AD21E15BAEFD3006D8C28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5AD21D15BAEFD3006D8C28 /* UIKit.framework */; };
+		FC5AD22015BAEFD3006D8C28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5AD21F15BAEFD3006D8C28 /* Foundation.framework */; };
+		FC5AD22215BAEFD3006D8C28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5AD22115BAEFD3006D8C28 /* CoreGraphics.framework */; };
+		FC5AD22815BAEFD3006D8C28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC5AD22615BAEFD3006D8C28 /* InfoPlist.strings */; };
+		FC5AD22A15BAEFD3006D8C28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5AD22915BAEFD3006D8C28 /* main.m */; };
+		FC5AD22E15BAEFD3006D8C28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5AD22D15BAEFD3006D8C28 /* AppDelegate.m */; };
+		FC5AD23115BAEFD3006D8C28 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5AD22F15BAEFD3006D8C28 /* MainStoryboard.storyboard */; };
+		FC5AD23415BAEFD3006D8C28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5AD23315BAEFD3006D8C28 /* ViewController.m */; };
+		FC5AD23C15BAEFD3006D8C28 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5AD23B15BAEFD3006D8C28 /* SenTestingKit.framework */; };
+		FC5AD23D15BAEFD3006D8C28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5AD21D15BAEFD3006D8C28 /* UIKit.framework */; };
+		FC5AD23E15BAEFD3006D8C28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5AD21F15BAEFD3006D8C28 /* Foundation.framework */; };
+		FC5AD24615BAEFD3006D8C28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC5AD24415BAEFD3006D8C28 /* InfoPlist.strings */; };
+		FC5AD24915BAEFD3006D8C28 /* DodgeManIITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5AD24815BAEFD3006D8C28 /* DodgeManIITests.m */; };
+		FC5AD25415BAF313006D8C28 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5AD25315BAF313006D8C28 /* ViewController2.m */; };
+		FC5AD25C15BAF564006D8C28 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5AD25615BAF564006D8C28 /* Default.png */; };
+		FC5AD25D15BAF564006D8C28 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5AD25715BAF564006D8C28 /* blank.png */; };
+		FC5AD26015BAF564006D8C28 /* StickManCut2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5AD25A15BAF564006D8C28 /* StickManCut2.png */; };
+		FC63C28D16226B85007420B8 /* StickManCut.png in Resources */ = {isa = PBXBuildFile; fileRef = FC63C28C16226B85007420B8 /* StickManCut.png */; };
+		FC7AA5AB1628FDDA004B3DC5 /* whoosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7AA5AA1628FDDA004B3DC5 /* whoosh.wav */; };
+		FC8D4A5815ED3A6300E3F71E /* 800px-Auto_Racing_Plain_Blue copy.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8D4A5715ED3A6300E3F71E /* 800px-Auto_Racing_Plain_Blue copy.png */; };
+		FCBA169F1628E600004822A1 /* Lined paper copy old.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBA169E1628E5FF004822A1 /* Lined paper copy old.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC5AD23F15BAEFD3006D8C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC5AD21015BAEFD2006D8C28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC5AD21815BAEFD2006D8C28;
+			remoteInfo = DodgeManII;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E52445C816FAA4A7002D7C03 /* blackBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackBar.png; sourceTree = "<group>"; };
+		E5297158168D4C35005758BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E544587216A3865400644E85 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		E549DC1816F1818800050E4C /* IcicleNewNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IcicleNewNew.png; sourceTree = "<group>"; };
+		E55A5DB016F2CADA0038E970 /* StickManLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StickManLeft.png; sourceTree = "<group>"; };
+		E55A5DB216F2CAE20038E970 /* StickManRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StickManRight.png; sourceTree = "<group>"; };
+		E5C2779917247EB700342B54 /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
+		E5C439AA168E17E70052A05D /* whoosh2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whoosh2.mp3; sourceTree = "<group>"; };
+		E5D4E94216F573B3000FCDFD /* Lined paper copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lined paper copy.png"; sourceTree = "<group>"; };
+		E5D4E94416F5764C000FCDFD /* StickManLeftNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StickManLeftNew.png; sourceTree = "<group>"; };
+		E5D4E94616F57657000FCDFD /* StickManRightNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StickManRightNew.png; sourceTree = "<group>"; };
+		E5D900F417222556002727D1 /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow.png; sourceTree = "<group>"; };
+		E5D900F517222556002727D1 /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_arrow.png; sourceTree = "<group>"; };
+		E5EA5A5016F62E3C00833869 /* AppIconNoCopywrightRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconNoCopywrightRetina.png; sourceTree = "<group>"; };
+		E5EA5A5216F62E4F00833869 /* AppIconNoCopywrightNon-Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconNoCopywrightNon-Retina.png"; sourceTree = "<group>"; };
+		E5EA5A5416F62E5D00833869 /* AppIconForItunesConnect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconForItunesConnect.png; sourceTree = "<group>"; };
+		FC0939CE1640AD1900ABA470 /* applause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = applause.mp3; sourceTree = "<group>"; };
+		FC0AC12015DAAB07009A35D0 /* check copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check copy.png"; sourceTree = "<group>"; };
+		FC145F6615C215D90001DA71 /* snowflake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowflake.png; sourceTree = "<group>"; };
+		FC5AD21915BAEFD2006D8C28 /* DodgeMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DodgeMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5AD21D15BAEFD3006D8C28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC5AD21F15BAEFD3006D8C28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC5AD22115BAEFD3006D8C28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC5AD22515BAEFD3006D8C28 /* DodgeMan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DodgeMan-Info.plist"; sourceTree = "<group>"; };
+		FC5AD22715BAEFD3006D8C28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC5AD22915BAEFD3006D8C28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC5AD22B15BAEFD3006D8C28 /* DodgeMan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DodgeMan-Prefix.pch"; sourceTree = "<group>"; };
+		FC5AD22C15BAEFD3006D8C28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC5AD22D15BAEFD3006D8C28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC5AD23015BAEFD3006D8C28 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FC5AD23215BAEFD3006D8C28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC5AD23315BAEFD3006D8C28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC5AD23A15BAEFD3006D8C28 /* DodgeManTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DodgeManTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5AD23B15BAEFD3006D8C28 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FC5AD24315BAEFD3006D8C28 /* DodgeManTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DodgeManTests-Info.plist"; sourceTree = "<group>"; };
+		FC5AD24515BAEFD3006D8C28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC5AD24715BAEFD3006D8C28 /* DodgeManIITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DodgeManIITests.h; sourceTree = "<group>"; };
+		FC5AD24815BAEFD3006D8C28 /* DodgeManIITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DodgeManIITests.m; sourceTree = "<group>"; };
+		FC5AD25215BAF313006D8C28 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		FC5AD25315BAF313006D8C28 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		FC5AD25615BAF564006D8C28 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FC5AD25715BAF564006D8C28 /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
+		FC5AD25A15BAF564006D8C28 /* StickManCut2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StickManCut2.png; sourceTree = "<group>"; };
+		FC63C28C16226B85007420B8 /* StickManCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StickManCut.png; sourceTree = "<group>"; };
+		FC7AA5AA1628FDDA004B3DC5 /* whoosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whoosh.wav; sourceTree = "<group>"; };
+		FC8D4A5715ED3A6300E3F71E /* 800px-Auto_Racing_Plain_Blue copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "800px-Auto_Racing_Plain_Blue copy.png"; sourceTree = "<group>"; };
+		FCB5B969160FB81F00DBC9B5 /* AppIconFinalNon-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconFinalNon-retina.png"; sourceTree = "<group>"; };
+		FCB5B96B160FB97600DBC9B5 /* AppIconFinalRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconFinalRetina.png; sourceTree = "<group>"; };
+		FCBA169E1628E5FF004822A1 /* Lined paper copy old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lined paper copy old.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC5AD21615BAEFD2006D8C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E544587316A3865400644E85 /* iAd.framework in Frameworks */,
+				E5297159168D4C35005758BA /* AVFoundation.framework in Frameworks */,
+				FC5AD21E15BAEFD3006D8C28 /* UIKit.framework in Frameworks */,
+				FC5AD22015BAEFD3006D8C28 /* Foundation.framework in Frameworks */,
+				FC5AD22215BAEFD3006D8C28 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5AD23615BAEFD3006D8C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5AD23C15BAEFD3006D8C28 /* SenTestingKit.framework in Frameworks */,
+				FC5AD23D15BAEFD3006D8C28 /* UIKit.framework in Frameworks */,
+				FC5AD23E15BAEFD3006D8C28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC5AD20E15BAEFD2006D8C28 = {
+			isa = PBXGroup;
+			children = (
+				E544587216A3865400644E85 /* iAd.framework */,
+				E5297158168D4C35005758BA /* AVFoundation.framework */,
+				FC7AA5AA1628FDDA004B3DC5 /* whoosh.wav */,
+				E52445C816FAA4A7002D7C03 /* blackBar.png */,
+				E5C2779917247EB700342B54 /* Arrow.png */,
+				E5EA5A5216F62E4F00833869 /* AppIconNoCopywrightNon-Retina.png */,
+				E5D900F417222556002727D1 /* right_arrow.png */,
+				E5D900F517222556002727D1 /* left_arrow.png */,
+				E5EA5A5016F62E3C00833869 /* AppIconNoCopywrightRetina.png */,
+				E5EA5A5416F62E5D00833869 /* AppIconForItunesConnect.png */,
+				E55A5DB016F2CADA0038E970 /* StickManLeft.png */,
+				E5D4E94416F5764C000FCDFD /* StickManLeftNew.png */,
+				E5D4E94616F57657000FCDFD /* StickManRightNew.png */,
+				E5D4E94216F573B3000FCDFD /* Lined paper copy.png */,
+				E55A5DB216F2CAE20038E970 /* StickManRight.png */,
+				E549DC1816F1818800050E4C /* IcicleNewNew.png */,
+				FC0939CE1640AD1900ABA470 /* applause.mp3 */,
+				FCB5B96B160FB97600DBC9B5 /* AppIconFinalRetina.png */,
+				FC0AC12015DAAB07009A35D0 /* check copy.png */,
+				FCBA169E1628E5FF004822A1 /* Lined paper copy old.png */,
+				E5C439AA168E17E70052A05D /* whoosh2.mp3 */,
+				FCB5B969160FB81F00DBC9B5 /* AppIconFinalNon-retina.png */,
+				FC8D4A5715ED3A6300E3F71E /* 800px-Auto_Racing_Plain_Blue copy.png */,
+				FC63C28C16226B85007420B8 /* StickManCut.png */,
+				FC145F6615C215D90001DA71 /* snowflake.png */,
+				FC5AD25615BAF564006D8C28 /* Default.png */,
+				FC5AD25715BAF564006D8C28 /* blank.png */,
+				FC5AD25A15BAF564006D8C28 /* StickManCut2.png */,
+				FC5AD22315BAEFD3006D8C28 /* DodgeManII */,
+				FC5AD24115BAEFD3006D8C28 /* DodgeManIITests */,
+				FC5AD21C15BAEFD2006D8C28 /* Frameworks */,
+				FC5AD21A15BAEFD2006D8C28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC5AD21A15BAEFD2006D8C28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC5AD21915BAEFD2006D8C28 /* DodgeMan.app */,
+				FC5AD23A15BAEFD3006D8C28 /* DodgeManTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC5AD21C15BAEFD2006D8C28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC5AD21D15BAEFD3006D8C28 /* UIKit.framework */,
+				FC5AD21F15BAEFD3006D8C28 /* Foundation.framework */,
+				FC5AD22115BAEFD3006D8C28 /* CoreGraphics.framework */,
+				FC5AD23B15BAEFD3006D8C28 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC5AD22315BAEFD3006D8C28 /* DodgeManII */ = {
+			isa = PBXGroup;
+			children = (
+				FC5AD22C15BAEFD3006D8C28 /* AppDelegate.h */,
+				FC5AD22D15BAEFD3006D8C28 /* AppDelegate.m */,
+				FC5AD22F15BAEFD3006D8C28 /* MainStoryboard.storyboard */,
+				FC5AD25215BAF313006D8C28 /* ViewController2.h */,
+				FC5AD25315BAF313006D8C28 /* ViewController2.m */,
+				FC5AD23215BAEFD3006D8C28 /* ViewController.h */,
+				FC5AD23315BAEFD3006D8C28 /* ViewController.m */,
+				FC5AD22415BAEFD3006D8C28 /* Supporting Files */,
+			);
+			path = DodgeManII;
+			sourceTree = "<group>";
+		};
+		FC5AD22415BAEFD3006D8C28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC5AD22515BAEFD3006D8C28 /* DodgeMan-Info.plist */,
+				FC5AD22615BAEFD3006D8C28 /* InfoPlist.strings */,
+				FC5AD22915BAEFD3006D8C28 /* main.m */,
+				FC5AD22B15BAEFD3006D8C28 /* DodgeMan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC5AD24115BAEFD3006D8C28 /* DodgeManIITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5AD24715BAEFD3006D8C28 /* DodgeManIITests.h */,
+				FC5AD24815BAEFD3006D8C28 /* DodgeManIITests.m */,
+				FC5AD24215BAEFD3006D8C28 /* Supporting Files */,
+			);
+			path = DodgeManIITests;
+			sourceTree = "<group>";
+		};
+		FC5AD24215BAEFD3006D8C28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC5AD24315BAEFD3006D8C28 /* DodgeManTests-Info.plist */,
+				FC5AD24415BAEFD3006D8C28 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC5AD21815BAEFD2006D8C28 /* DodgeMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5AD24C15BAEFD3006D8C28 /* Build configuration list for PBXNativeTarget "DodgeMan" */;
+			buildPhases = (
+				FC5AD21515BAEFD2006D8C28 /* Sources */,
+				FC5AD21615BAEFD2006D8C28 /* Frameworks */,
+				FC5AD21715BAEFD2006D8C28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DodgeMan;
+			productName = DodgeManII;
+			productReference = FC5AD21915BAEFD2006D8C28 /* DodgeMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC5AD23915BAEFD3006D8C28 /* DodgeManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5AD24F15BAEFD3006D8C28 /* Build configuration list for PBXNativeTarget "DodgeManTests" */;
+			buildPhases = (
+				FC5AD23515BAEFD3006D8C28 /* Sources */,
+				FC5AD23615BAEFD3006D8C28 /* Frameworks */,
+				FC5AD23715BAEFD3006D8C28 /* Resources */,
+				FC5AD23815BAEFD3006D8C28 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5AD24015BAEFD3006D8C28 /* PBXTargetDependency */,
+			);
+			name = DodgeManTests;
+			productName = DodgeManIITests;
+			productReference = FC5AD23A15BAEFD3006D8C28 /* DodgeManTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC5AD21015BAEFD2006D8C28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					FC5AD21815BAEFD2006D8C28 = {
+						DevelopmentTeam = 7J593N4982;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC5AD21315BAEFD2006D8C28 /* Build configuration list for PBXProject "DodgeMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = FC5AD20E15BAEFD2006D8C28;
+			productRefGroup = FC5AD21A15BAEFD2006D8C28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC5AD21815BAEFD2006D8C28 /* DodgeMan */,
+				FC5AD23915BAEFD3006D8C28 /* DodgeManTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC5AD21715BAEFD2006D8C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5AD22815BAEFD3006D8C28 /* InfoPlist.strings in Resources */,
+				FC5AD23115BAEFD3006D8C28 /* MainStoryboard.storyboard in Resources */,
+				FC5AD25C15BAF564006D8C28 /* Default.png in Resources */,
+				FC5AD25D15BAF564006D8C28 /* blank.png in Resources */,
+				FC5AD26015BAF564006D8C28 /* StickManCut2.png in Resources */,
+				FC145F6715C215D90001DA71 /* snowflake.png in Resources */,
+				FC0AC12115DAAB07009A35D0 /* check copy.png in Resources */,
+				FC8D4A5815ED3A6300E3F71E /* 800px-Auto_Racing_Plain_Blue copy.png in Resources */,
+				FC63C28D16226B85007420B8 /* StickManCut.png in Resources */,
+				FCBA169F1628E600004822A1 /* Lined paper copy old.png in Resources */,
+				FC7AA5AB1628FDDA004B3DC5 /* whoosh.wav in Resources */,
+				FC0939CF1640AD1900ABA470 /* applause.mp3 in Resources */,
+				E5C439AB168E17E70052A05D /* whoosh2.mp3 in Resources */,
+				E549DC1916F1818800050E4C /* IcicleNewNew.png in Resources */,
+				E55A5DB116F2CADA0038E970 /* StickManLeft.png in Resources */,
+				E55A5DB316F2CAE20038E970 /* StickManRight.png in Resources */,
+				E5D4E94316F573B3000FCDFD /* Lined paper copy.png in Resources */,
+				E5D4E94516F5764C000FCDFD /* StickManLeftNew.png in Resources */,
+				E5D4E94716F57657000FCDFD /* StickManRightNew.png in Resources */,
+				E5EA5A5116F62E3C00833869 /* AppIconNoCopywrightRetina.png in Resources */,
+				E5EA5A5316F62E4F00833869 /* AppIconNoCopywrightNon-Retina.png in Resources */,
+				E5EA5A5516F62E5D00833869 /* AppIconForItunesConnect.png in Resources */,
+				E52445C916FAA4A7002D7C03 /* blackBar.png in Resources */,
+				E5D900F617222556002727D1 /* right_arrow.png in Resources */,
+				E5D900F717222556002727D1 /* left_arrow.png in Resources */,
+				E5C2779A17247EB700342B54 /* Arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5AD23715BAEFD3006D8C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5AD24615BAEFD3006D8C28 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC5AD23815BAEFD3006D8C28 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC5AD21515BAEFD2006D8C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5AD22A15BAEFD3006D8C28 /* main.m in Sources */,
+				FC5AD22E15BAEFD3006D8C28 /* AppDelegate.m in Sources */,
+				FC5AD23415BAEFD3006D8C28 /* ViewController.m in Sources */,
+				FC5AD25415BAF313006D8C28 /* ViewController2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5AD23515BAEFD3006D8C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5AD24915BAEFD3006D8C28 /* DodgeManIITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC5AD24015BAEFD3006D8C28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC5AD21815BAEFD2006D8C28 /* DodgeMan */;
+			targetProxy = FC5AD23F15BAEFD3006D8C28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC5AD22615BAEFD3006D8C28 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5AD22715BAEFD3006D8C28 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC5AD22F15BAEFD3006D8C28 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5AD23015BAEFD3006D8C28 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		FC5AD24415BAEFD3006D8C28 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5AD24515BAEFD3006D8C28 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC5AD24A15BAEFD3006D8C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nancy Noyes (B6LU8BTHQ4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "C12242C7-D0B3-4C5B-9966-BD553D227723";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC5AD24B15BAEFD3006D8C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nancy Noyes (E2KD9S85Z6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "1C7881A7-DA4A-48EC-BF72-2A1B25EDF07D";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC5AD24D15BAEFD3006D8C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J593N4982;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DodgeManII/DodgeMan-Prefix.pch";
+				INFOPLIST_FILE = "DodgeManII/DodgeMan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = DodgeMan;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC5AD24E15BAEFD3006D8C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J593N4982;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DodgeManII/DodgeMan-Prefix.pch";
+				INFOPLIST_FILE = "DodgeManII/DodgeMan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = DodgeMan;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC5AD25015BAEFD3006D8C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DodgeManII.app/DodgeManII";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DodgeManII/DodgeManII-Prefix.pch";
+				INFOPLIST_FILE = "DodgeManIITests/DodgeManTests-Info.plist";
+				PRODUCT_NAME = DodgeManTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FC5AD25115BAEFD3006D8C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DodgeManII.app/DodgeManII";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DodgeManII/DodgeManII-Prefix.pch";
+				INFOPLIST_FILE = "DodgeManIITests/DodgeManTests-Info.plist";
+				PRODUCT_NAME = DodgeManTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC5AD21315BAEFD2006D8C28 /* Build configuration list for PBXProject "DodgeMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5AD24A15BAEFD3006D8C28 /* Debug */,
+				FC5AD24B15BAEFD3006D8C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5AD24C15BAEFD3006D8C28 /* Build configuration list for PBXNativeTarget "DodgeMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5AD24D15BAEFD3006D8C28 /* Debug */,
+				FC5AD24E15BAEFD3006D8C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5AD24F15BAEFD3006D8C28 /* Build configuration list for PBXNativeTarget "DodgeManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5AD25015BAEFD3006D8C28 /* Debug */,
+				FC5AD25115BAEFD3006D8C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC5AD21015BAEFD2006D8C28 /* Project object */;
+}

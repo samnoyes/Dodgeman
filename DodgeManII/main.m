@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 #import "AppDelegate.h"
+#include "ViewController.h"
+#include "ViewController2.h"
+extern int *_highscore;
 
 int main(int argc, char *argv[])
 {

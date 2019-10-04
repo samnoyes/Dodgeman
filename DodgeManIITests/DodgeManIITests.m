@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in DodgeManIITests");
+    STFail(@"Sam is cool.  Unit tests are not implemented yet in DodgeManIITests");
 }
 
 @end
